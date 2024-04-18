@@ -1,0 +1,34 @@
+<?xml version="1.0" ?>
+<!DOCTYPE Xdmf SYSTEM "Xdmf.dtd" []>
+<Xdmf Version="2.0">
+ <Domain>
+   <Grid Name="node_mesh" GridType="Uniform">
+    <Time Value="9.695849e+02"/>
+     </Geometry>
+     <Attribute Name="rho" AttributeType="Scalar" Center="Cell">
+        /Users/cairns/Desktop/PLUTOO/KPS/test/data.0097.dbl.h5:Timestep_97/vars/rho
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vx1" AttributeType="Scalar" Center="Cell">
+        /Users/cairns/Desktop/PLUTOO/KPS/test/data.0097.dbl.h5:Timestep_97/vars/vx1
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vx2" AttributeType="Scalar" Center="Cell">
+        /Users/cairns/Desktop/PLUTOO/KPS/test/data.0097.dbl.h5:Timestep_97/vars/vx2
+       </DataItem>
+     </Attribute>
+     <Attribute Name="vx3" AttributeType="Scalar" Center="Cell">
+        /Users/cairns/Desktop/PLUTOO/KPS/test/data.0097.dbl.h5:Timestep_97/vars/vx3
+       </DataItem>
+     </Attribute>
+     <Attribute Name="prs" AttributeType="Scalar" Center="Cell">
+        /Users/cairns/Desktop/PLUTOO/KPS/test/data.0097.dbl.h5:Timestep_97/vars/prs
+       </DataItem>
+     </Attribute>
+     <Attribute Name="X" AttributeType="Scalar" Center="Cell">
+        /Users/cairns/Desktop/PLUTOO/KPS/test/data.0097.dbl.h5:/cell_coords/X
+       </DataItem>
+     </Attribute>
+   </Grid>
+ </Domain>
+</Xdmf>
